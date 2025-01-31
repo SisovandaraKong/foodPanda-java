@@ -10,7 +10,7 @@ public class ProductController {
 
     public ProductController() {
         products = new ArrayList<>();
-        // Add some dummy drink products
+
         products.add(new Product(1, "Coca Cola", 2.99, "Classic Coke 330ml"));
         products.add(new Product(2, "Iced Latte", 4.99, "Cold Brewed Coffee with Milk"));
         products.add(new Product(3, "Orange Juice", 3.99, "Freshly Squeezed Orange Juice"));

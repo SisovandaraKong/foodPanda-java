@@ -10,7 +10,7 @@ public class UserController {
 
     public UserController() {
         users = new ArrayList<>();
-        // Add some dummy users for testing
+
         users.add(new User(1, "dara", "dara1234"));
         users.add(new User(2, "ellie", "ellie1234"));
     }
